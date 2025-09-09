@@ -22,7 +22,7 @@ The application is built in Python and leverages several key technologies:
 ## How to Run This Project Locally
 
 1.  Clone the repository:
-    `git clone <your-repo-link>`
+    `git clone (https://github.com/julianbergado/eu-ai-act-policy-classifier)`
 2.  Navigate to the project directory:
     `cd policy_classifier`
 3.  Create and activate a virtual environment:
