@@ -1,5 +1,7 @@
 # AI Policy Clause Classifier
 
+**Streamlit Link: eu-ai-act-policy-classifier.streamlit.app/**
+
 This project is a web-based tool designed to analyze and categorize clauses from AI policy and legal documents. Given a specific clause, the tool uses a zero-shot classification model to assign scores across several key governance themes, such as 'Risk Management' and 'Data Privacy'.
 
 ## How It Works
