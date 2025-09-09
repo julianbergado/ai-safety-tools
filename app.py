@@ -4,6 +4,10 @@ import streamlit as st
 from transformers import pipeline
 import pandas as pd
 
+@st.cache_resource
+def load_model():
+    return pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+
 print("Loading classification model...")
 classifier = pipeline("zero-shot-classification", 
                       model="facebook/bart-large-mnli")
